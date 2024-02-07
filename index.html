@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Dateiupload</title>
+</head>
+<body>
+    <h2>Dateiupload zu GridFS</h2>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <label for="file">Wähle eine Datei zum Hochladen:</label>
+        <input type="file" id="file" name="file" required>
+        <button type="submit">Hochladen</button>
+    </form>
+</body>
+</html>
